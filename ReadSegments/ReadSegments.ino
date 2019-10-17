@@ -4,8 +4,8 @@
 #include <MFRC522.h>
 
 // Los pines que usamos para conectarnos
-#define RST_PIN 8          
-#define SDA_PIN 9 // Tambien conocido como SS
+#define RST_PIN 9          
+#define SDA_PIN 10 // Tambien conocido como SS
 
 MFRC522 mfrc522(SDA_PIN, RST_PIN);  
 
